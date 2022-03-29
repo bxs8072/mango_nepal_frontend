@@ -1,0 +1,17 @@
+:root {
+  // --primary: #02cc8f;
+  --primary: #000;
+  // --primary: #f73a19;
+  --textColor: #000;
+  --textColorDim: #4f4f4f;
+  --textColorSecondary: #fff;
+  --link: #8f068d;
+  --cardShadow: inset 0px -100px 60px rgba(0, 0, 0, 0.7);
+  --shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+:root {
+  .ck.ck-editor__editable_inline {
+    border: 1px solid var(--ck-color-base-border);
+  }
+}

@@ -1,0 +1,26 @@
+section#auth {
+  margin-bottom: 20px;
+  .auth-wrapper {
+    margin: 30px auto;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+  }
+
+  .link {
+    padding: 10px 0;
+    a {
+      color: var(--link);
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+}
+
+.form-field-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}

@@ -1,0 +1,42 @@
+.add-editor .ql-container {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.add-editor .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Bubble Theme */
+.add-editor .ql-bubble .ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.add-editor .ql-editor {
+  min-height: 18em;
+}
+
+.right-side-of-event {
+  & > .card {
+    padding: 20px 15px;
+  }
+  header {
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+    }
+  }
+  ul {
+    padding: 0;
+    padding-left: 15px;
+    li {
+      font-size: 13px;
+    }
+  }
+}

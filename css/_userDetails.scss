@@ -1,0 +1,55 @@
+// #user-details {
+// }
+h3.info-item {
+  font-size: 14px;
+  strong {
+    color: rgba(#000, 0.7);
+  }
+}
+.user-details-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  h3 {
+    font-size: 14px;
+    strong {
+      color: rgba(#000, 0.7);
+    }
+  }
+}
+header {
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.names {
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    margin-right: 15px;
+  }
+  .name {
+    h3 {
+      font-size: 14px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+.user-details-list-modal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  justify-content: space-between;
+
+  color: #333;
+
+  h3 {
+    font-size: 14px;
+  }
+}
